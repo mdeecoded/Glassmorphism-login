@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-vector/abstract-geometric-round-shape-blue-background-design_1017-42785.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .glassmorphism-box {
+    background: rgba(10, 115, 236, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 40px;
+    color: #000;
+  }
+  
+  .glassmorphism-box h2 {
+    color: #fffdfd;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000;
+    margin-left: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding-left: 30px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-link {
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .fa-user, .fa-lock, .fa-sign-in-alt {
+    position: absolute;
+    margin-left: 10px;
+  }
+  
+  .fa-user, .fa-lock {
+    margin-top: 14px;
+  }
+  
+  .fa-sign-in-alt {
+    margin-top: 12px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .built-by {
+    color: #fff; /* White color */
+    text-decoration: none;
+  }
+  
